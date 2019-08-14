@@ -2,6 +2,27 @@
 
 Este script atualiza automaticamente a lista de repositórios e os pacotes desatualizados. 
 
+## Instalação
+
+Para instalar, basta executar o script **Installer.sh** pelo terminal. Este instalador criará as seguintes pastas e os seguintes arquivos:
+
+```
+/
+└── home/
+    └── $USER/
+        ├── Logs/
+        │   └── AutoUpdate.md
+        └── Scripts/
+            ├── AutoUpdate
+            └── crontab
+```
+
+Comando para executar a instalação (*É necessário permissões de super usuário*):
+
+```bash
+$ bash ./Installer.sh
+```
+
 ## Dependências
 
 Esse script foi desenvolvido e testado na distribuição KDE Neon. Utiliza basicamente três aplicações para executar seus comandos:
@@ -34,5 +55,3 @@ Este projeto foi desenvolvido com a licença [GPL v2](%5Bhttps://www.gnu.org/lic
 > Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 *Fonte: [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)*
-
-

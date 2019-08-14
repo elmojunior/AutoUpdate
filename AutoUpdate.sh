@@ -14,7 +14,7 @@
 # Variáveis
 NOME="AutoUpdate"
 VERSAO="1.4.2"
-ARQLOG="/home/$USER/Logs/$NOME.md"
+ARQLOG="/home/$USER/$NOME.md"
 DATAHORA=$(date +%d/%m/%Y" - "%H:%M:%S)
 
 # Cabeçalho
